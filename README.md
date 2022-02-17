@@ -13,3 +13,10 @@ This package provides a faster way to inject data into flask mail templates and 
 
 ### using cli arguments
 - `flask template-test name-of-template.html -d "path/to/some/data.py" -e "my-email@gmail.com"`
+
+
+# Release notes
+- requires `wheel` & `twine` to be installed globally
+- versioning is handled by autosemver. see docs for that when making more than minor changes
+- build package: `python3 setup.py sdist bdist_wheel`
+- publish package: `twine upload dist/*`
