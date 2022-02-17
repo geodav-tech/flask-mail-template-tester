@@ -14,8 +14,7 @@ setup_requires = [
 
 install_requires = [
     'Flask>=0.12.2',
-    'click>=6.7',
-    'ptpython>=0.41',
+    'click>=6.7'
 ]
 
 setup(
