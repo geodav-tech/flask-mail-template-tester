@@ -14,3 +14,4 @@ This package provides a faster way to inject data into flask mail templates and 
 ### using cli arguments
 `flask template-test name-of-template.html -d "path/to/some/data.py" -e "my-email@gmail.com"`
 
+Thanks for checking out this package!
