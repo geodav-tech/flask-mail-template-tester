@@ -6,7 +6,8 @@ from setuptools import setup
 URL = "https://github.com/geodav-tech/flask-mail-template-tester"
 
 setup_requires = [
-    'autosemver>=0.5.3',
+	'wheel',
+	'autosemver>=0.5.3',
 ]
 
 install_requires = [
@@ -37,7 +38,7 @@ setup(
 		]
 	},
 	classifiers=[
-		'Development Status :: 1 - Planning',
+		'Development Status :: 3 - Alpha',
 		'Environment :: Console',
 		'Intended Audience :: Developers',
 		'License :: OSI Approved :: MIT License',
