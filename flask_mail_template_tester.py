@@ -20,7 +20,6 @@ def test_template(templatename, dataFile, email):
     email = email or os.getenv('TEMPLATE_EMAIL')
     if not email:
         raise "Email not provided to template tester. Pass -e or use TEMPLATE_EMAIL environment variable"
-        return
 
     # expect dataFile to define `template_data` variable with our template data
     # because this exec is within a function, variables defined here are in locals()
