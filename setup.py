@@ -32,6 +32,7 @@ setup(
 	platforms='any',
 	description=__doc__,
 	long_description=readme,
+	long_description_content_type='text/markdown',
 	setup_requires=setup_requires,
 	install_requires=install_requires,
 	entry_points={
